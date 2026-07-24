@@ -32,3 +32,14 @@ sqlcmd -S localhost -E -C -i instalar.sql
 1. Abrir `instalar.sql`.
 2. Activar el **Modo SQLCMD** (Menú *Consulta* > *Modo SQLCMD*).
 3. Ejecutar.
+
+## Desinstalación / Borrado
+
+### Opción 1: Desde la consola (SQLCMD)
+```bash
+sqlcmd -S localhost -E -C -i clean.sql
+```
+
+### Opción 2: Desde SSMS
+1. Abrir `clean.sql`.
+2. Ejecutar.
